@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+               "${workspaceFolder}/**",
+                "/opt/ros/noetic/include/**",      
+                "/usr/include/**",                 
+                "/usr/include/eigen3",             
+                "/usr/include/pcl-1.10",           
+                "/usr/include/vtk-7.1",            
+                "/usr/include/opencv4"    
+            ],
+            "defines": [ "ROOT_DIR=\"/root/FAST-LIVO2_ws/src/FAST-LIVO2/\""],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+
+
+        }
+    ],
+    "version": 4
+}
